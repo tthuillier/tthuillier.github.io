@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'lemon_milkregular';
+    src: url('fonts/lemonmilk-regular-webfont.woff2') format('woff2'),
+         url('fonts/lemonmilk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+#title {
+	font-family: 'lemon_milkregular';
+	font-size: 80px;
+	color: white;
+	text-align: center;
+}
+
+#txt {
+	font-family: 'lemon_milkregular';
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+#gif {
+	text-align: center;
+}
+
+#signature {
+	font-family: 'lemon_milkregular';
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
